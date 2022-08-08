@@ -135,3 +135,7 @@ nav {
     display: block;
     margin: 115px auto 0 auto;
 }
+.reasons {
+    min-height: 850px;
+    padding: 18px 0 64px 0;
+}

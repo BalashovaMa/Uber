@@ -1,0 +1,85 @@
+@media (max-width: 1200px)
+    .menu
+        .menu_link
+            font-size: 13px
+        .menu_item
+            padding-right: 19px
+    .promo
+        .promo_header
+            font-size: 50px
+    .reasons
+        .reasons_items
+            align-items: flex-start
+            .reasons_description
+                width: 300px
+    .mobile
+        &_item
+            width: 300px
+    .choice
+        &_img
+            width: 100%   
+    .footer
+        &_nav
+            margin-left: 70px
+        &_main
+            gap: 40px
+@media (max-width: 991px)
+    .menu
+        .menu_link
+            font-size: 10px
+        .menu_item
+            padding-right: 8px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            height: 40px
+            width: 100%
+            margin-top: 21px
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 30px
+    .reasons
+        .reasons_items
+            flex-direction: column
+            align-items: center
+            .reasons_description
+                width: 300px
+                margin-top: 20px
+    .mobile
+        &_item
+            width: 200px
+    .footer
+        &_nav
+            margin-left: 30px
+        &_main
+            gap: 30px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        flex-direction: column
+        background-color: rgba(0, 0, 0, 0.8)
+        justify-content: center
+        align-items: center
+        transition: 0.6
+        .menu_active
+            left: 0
+        .menu_link
+            font-size: 20px
+        .menu_item
+            padding: 0
+            border: 0
+            margin: 10px 0
+    

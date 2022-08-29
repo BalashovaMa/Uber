@@ -1,1 +1,1 @@
-https://github.com/BalashovaMa/Uber/src
+https://github.com/BalashovaMa/Uber/src/index.html
